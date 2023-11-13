@@ -15,11 +15,11 @@ class Oracle(Node):
         msg = Pose()
         msg.position.x = float(input('Enter x position: '))
         msg.position.y = float(input('Enter y position: '))
-        msg.position.z = float(input('Enter z position: '))
+        msg.position.z = 0.0 # Zero because we don't want to rotate the robot
 
         self.oracle.publish(msg)
 
-        self.get_logger().info(f"Pose {msg.position.x, msg.position.y, msg.position.z} published.")
+        self.get_logger().info(f"Pose {msg.position.x, msg.position.y} published.")
 
     def destroy(self):
         self.oracle.destroy_pub()

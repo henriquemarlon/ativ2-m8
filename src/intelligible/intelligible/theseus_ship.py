@@ -57,7 +57,7 @@ class TheseusShip(Node):
     def listener_callback(self, msg: Pose):
         pos_x = msg.position.x
         pos_y = msg.position.y
-        pos_z = 0.0
+        pos_z = msg.position.z
         self.navigator_controller.go_to_pose(pos_x, pos_y, pos_z)
 
     def timer_callback(self):

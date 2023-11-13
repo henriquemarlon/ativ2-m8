@@ -33,7 +33,7 @@ class Hermes(Node):
         self.robot_status = RobotStatus.FREE if msg.data == "FREE" else RobotStatus.BUSY
 
         if self.robot_status == RobotStatus.BUSY:
-            self.get_logger().info(f"{msg.data} Robot is busy, waiting for it to be free.")
+            self.get_logger().info(f"Robot is busy, waiting for it to be free.")
         elif self.robot_status == RobotStatus.FREE and not self.queue.empty():
             next_pose = self.queue.get()
             self.dequeue.publish(next_pose)
