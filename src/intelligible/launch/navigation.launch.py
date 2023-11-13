@@ -50,7 +50,6 @@ def generate_launch_description():
             package='intelligible',
             executable='oracle',
             output='screen',
-            emulate_tty=True,
             prefix="xterm -e",
             name="oracle"
         ),

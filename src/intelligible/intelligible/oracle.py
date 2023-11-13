@@ -12,7 +12,10 @@ class Oracle(Node):
         self.oracle.create_timer(1.0, self.timer_callback)
 
     def timer_callback(self):
+        print("Know thyself; tell me a position, and I will show you where you will go.")
+
         msg = Pose()
+
         msg.position.x = float(input('Enter x position: '))
         msg.position.y = float(input('Enter y position: '))
         msg.position.z = 0.0 # Zero because we don't want to rotate the robot
