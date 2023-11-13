@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 echo "Updating packages..."
 # Update packages
@@ -14,8 +14,8 @@ colcon build > /dev/null 2>&1
 
 echo "Configuring environment..."
 # Configure environment
-source install/local_setup.zsh
+source install/local_setup.bash
 
 echo "Runing the launch file..."
 # Launch the launch file
-ros2 launch demiurge mapping.launch.py
+ros2 launch intelligible navigation.launch.py

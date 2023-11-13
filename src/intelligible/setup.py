@@ -24,6 +24,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "hermes=intelligible.hermes:main",
+            "oracle=intelligible.oracle:main",
+            "prometheus=intelligible.prometheus:main",
+            "theseus_ship=intelligible.theseus_ship:main",
         ],
     },
 )

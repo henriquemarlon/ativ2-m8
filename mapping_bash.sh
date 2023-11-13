@@ -16,6 +16,6 @@ echo "Configuring environment..."
 # Configure environment
 source install/local_setup.bash
 
-echo "Launching the launch file..."
+echo "Runing the launch file..."
 # Launch the launch file
 ros2 launch demiurge mapping.launch.py

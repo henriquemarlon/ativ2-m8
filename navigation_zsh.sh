@@ -18,4 +18,4 @@ source install/local_setup.zsh
 
 echo "Runing the launch file..."
 # Launch the launch file
-ros2 launch demiurge mapping.launch.py
+ros2 launch intelligible navigation.launch.py
