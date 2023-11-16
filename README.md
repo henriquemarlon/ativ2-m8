@@ -34,7 +34,7 @@ ros2 run nav2_map_server map_saver_cli -f ./assets/map
 Depois de obter sucesso com os comandos acima, você cumpriu a rotina de mapeamento. Agora basta clicar em CTRL+C para encerrar todos os processos criados pelo script `.sh`
 
 #### Video do mapeamentodo sistema de mapeamento que é lançado por um "launch file".
-Neste [link]() é possível ver o funcionamento do pacote.
+Neste [link](https://youtu.be/Jo1Fm9NkEkQ) é possível ver o funcionamento do pacote.
 
 ### Pacote Intelligible:
 
