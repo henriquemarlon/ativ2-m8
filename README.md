@@ -64,4 +64,4 @@ sudo chmod +x ./navigation_zsh.sh
 Depois de obter sucesso com os comandos acima, você cumpriu a rotina de mapeamento. Agora basta clicar em CTRL+C para encerrar todos os processos criados pelo script `.sh`. 
 
 #### Video da navegação utilizando o pacote intelligible
-Neste [link]() é possível ver o funcionamento do pacote.
+Neste [link](https://youtu.be/XA6lfy7YLa0) é possível ver o funcionamento do pacote.
